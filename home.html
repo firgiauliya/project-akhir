@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doom Cafe</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" href="asset/flame-transparent-png-clip-art-image-5a1ce2856482e3.8695243515118424374117-removebg-preview.png" />
+</head>
+<body>
+    
+    <!-- navbar start -->
+    <nav class="navbar">
+        <a href="#" class="navbar-logo"><span>Doom</span>Cafe</a>
+    
+
+    <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">contact</a>
+    </div>
+
+    <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+    </div>
+</nav>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jam Dinamis</title>
+    <style>
+        #clock {
+            font-size: 48px;
+            text-align: center;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="clock"></div>
+
+    <script>
+        function displayTime() {
+            var date = new Date();
+            var hours = date.getHours();
+            var minutes = date.getMinutes();
+            var seconds = date.getSeconds();
+            var time = hours + ":" + minutes + ":" + seconds;
+            document.getElementById("clock").textContent = time;
+        }
+
+        setInterval(displayTime, 1000); // Panggil fungsi displayTime setiap 1 detik
+    </script>
+</body>
+</html>
+
+<!-- navbar-end -->
+
+<!-- hero section start -->
+<section class="hero" id="home">
+    <main class="content">
+        <h1>Tasty of <span style="color: #ff0000;">Doom</span> Cafe</h1>
+        <p>"Menjelajahi Kenyamanan yang Menghancurkan di Doom Cafe Tempat Bersantap yang Memanjakan Jiwa dengan Sentuhan Elemen Gelap, Kuliner Berkabut, dan Kegelapan yang Menyapa di Setiap Hidangan"</p>
+        <!-- <a href="#" class="cta">Order Now</a> -->
+    </main>
+</section>
+<!-- hero section end -->
+
+<!-- about section start -->
+<section id="about" class="about">
+    <h2><span>Tentang</span> Kami</h2>
+    <p style="font-size:1.2rem;">Kami adalah perusahaan kopi yang mendedikasikan seluruh gairah, kecintaan, dan antusiasme kami kepada dunia kopi yang menakjubkan. Kami adalah perusahaan lokal dan sebagian besar bahan baku yang kami gunakan adalah lokal. Ya, dan kami mengatakan hal tersebut dengan bangga.</p>
+
+    <div class="row">
+        <div class="about-img">
+            <img src="./asset/about-img.png" alt="Tentang Kami">
+        </div>
+        <div class="containerkotak">
+        <div class="kotak">
+            <p style="text-align: center;">Kami tahu, begitu juga Anda, bahwa biji-biji kopi terbaik dunia berasal dari Indonesia. Kami berkeliling ke berbagai pelosok Indonesia dan bekerja sama dengan para petani dan pemanggang kopi lokal untuk mendapatkan cite rasa kopi terbaik Indonesia, biji kopi arabika grade satu dan berbagai perkebunan yang tersebar di Nusantara.</p>
+        </div>
+    </div>
+        <!-- <div class="content">
+            <h3>OUR STORY</h3>
+            <p>Kami adalah perusahaan kopi yang mendedikasikan seluruh gairah, kecintaan, dan antusiasme kami kepada dunia kopi yang menakjubkan. Kami adalah perusahaan lokal dan sebagian besar bahan baku yang kami gunakan adalah lokal. Ya, dan kami mengatakan hal tersebut dengan bangga.</p>
+        </div> -->
+    </div>
+</section>
+<!-- about section end -->
+
+<!-- menu section start -->
+    <section id="menu" class="menu">
+        <h2><span>Menu</span> Favorit</h2>
+        <p>Menu Favorit di Tempat Kami</p>
+
+        <div class="row">
+            <div class="menu-card">
+                <img src="./asset/img-4.png" alt="Latte ART Coffee">
+                <h3 class="menu-card-title">Latte Art Coffee</h3>
+                <p class="menu-card-price">IDR 20K</p>
+            </div>
+            <div class="menu-card">
+                <img src="./asset/img-3.png" alt="Latte ART Coffee">
+                <h3 class="menu-card-title">Coffee & Pastry</h3>
+                <p class="menu-card-price">IDR 30K</p>
+            </div>
+            <div class="menu-card">
+                <img src="./asset/Ramean_02.jpg_1x.png" alt="Latte ART Coffee">
+                <h3 class="menu-card-title">Ramean 1 Liter</h3>
+                <p class="menu-card-price">IDR 50K</p>
+            </div>
+            <div class="menu-card">
+                <img src="./asset/resep-churros-saus-cokelat_43.jpeg" alt="Churros">
+                <h3 class="menu-card-title">Churros</h3>
+                <p class="menu-card-price">IDR 18K</p>
+            </div>
+        </div>
+    </section>
+<!-- menu section end -->
+
+<!-- contact person start -->
+<section id="contact" class="contact">
+    <h2><span>Contact</span> Kami</h2>
+    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, repellat.</p> -->
+
+    <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0399353711427!2d106.81272507485492!3d-6.258469993730087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f18029fd2f85%3A0xd4c0a091e2c29c58!2sDome%20Cafe!5e0!3m2!1sid!2sid!4v1685065948072!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+        <form action="">
+            <div class="input-group">
+                <i data-feather="user"></i>
+                <input type="text"
+                placeholder="nama">
+            </div>
+            <div class="input-group">
+                <i data-feather="mail"></i>
+                <input type="text"
+                placeholder="email">
+            </div>
+            <div class="input-group">
+                <i data-feather="phone"></i>
+                <input type="text"
+                placeholder="no hp">
+            </div>
+            <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+    </div>
+</section>
+<!-- contact person end -->
+
+<!-- footer start -->
+        </div>
+    <div class="footerBottom">
+<p>Copyright © 2023 Cafe. All Right Reserved. Designed by <span class="powered">Bblueb4kay</span></p>
+</div>
+</footer>
+<!-- footer end -->
+</body>
+</html>
